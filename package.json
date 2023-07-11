@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is my personal portfolio project",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel index.html --dist-dir docs",
     "test": "jest"
   },
   "author": "Ajit",
@@ -23,8 +23,11 @@
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@fontsource/roboto": "^5.0.1",
+    "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.2",
+    "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-type-animation": "^3.0.1"
   }
 }
