@@ -55786,6 +55786,14 @@ const progressData = [
     {
         name: "Bootstrap",
         value: 70
+    },
+    {
+        name: "Typescript",
+        value: 60
+    },
+    {
+        name: "Tailwind CSS",
+        value: 60
     }
 ];
 function SkillsCard(props, ref) {
@@ -55815,12 +55823,12 @@ function SkillsCard(props, ref) {
                     children: "What Can I Do"
                 }, void 0, false, {
                     fileName: "src/components/Skills/index.jsx",
-                    lineNumber: 53,
+                    lineNumber: 58,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/Skills/index.jsx",
-                lineNumber: 44,
+                lineNumber: 49,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Grid), {
@@ -55839,12 +55847,12 @@ function SkillsCard(props, ref) {
                     children: "Skills"
                 }, void 0, false, {
                     fileName: "src/components/Skills/index.jsx",
-                    lineNumber: 65,
+                    lineNumber: 70,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/Skills/index.jsx",
-                lineNumber: 57,
+                lineNumber: 62,
                 columnNumber: 7
             }, this),
             progressData.map((ele)=>{
@@ -55860,7 +55868,7 @@ function SkillsCard(props, ref) {
                             children: ele.name
                         }, void 0, false, {
                             fileName: "src/components/Skills/index.jsx",
-                            lineNumber: 78,
+                            lineNumber: 83,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _linearProgressDefault.default), {
@@ -55878,20 +55886,20 @@ function SkillsCard(props, ref) {
                             variant: "determinate"
                         }, void 0, false, {
                             fileName: "src/components/Skills/index.jsx",
-                            lineNumber: 81,
+                            lineNumber: 86,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Skills/index.jsx",
-                    lineNumber: 77,
+                    lineNumber: 82,
                     columnNumber: 11
                 }, this);
             })
         ]
     }, void 0, true, {
         fileName: "src/components/Skills/index.jsx",
-        lineNumber: 33,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }

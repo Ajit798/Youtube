@@ -26,7 +26,12 @@ const progressData = [
   {
     name: "Bootstrap",
     value: 70
-  }
+  },
+  {
+    name: "Typescript",
+    value: 60
+  },
+  { name: "Tailwind CSS", value: 60 }
 ];
 function SkillsCard(props, ref) {
   return (
