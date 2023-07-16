@@ -99,6 +99,7 @@ function ContactUs(props, ref) {
           opacity: 0.9,
           justifyContent: "center"
         }}
+        elevation={1}
       >
         <Box
           sx={{ width: "100%" }}

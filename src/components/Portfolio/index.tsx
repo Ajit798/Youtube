@@ -89,7 +89,7 @@ function ProjectsCard(props, ref) {
       {progressData.map((ele) => {
         return (
           <Grid item md={4} sm={6} xs={12}>
-            <Card sx={{ maxWidth: 300, borderRadius: "14px" }} elevation={2}>
+            <Card sx={{ width: "100%", borderRadius: "14px" }} elevation={2}>
               <CardMedia
                 sx={{ height: 180 }}
                 image={ele.ref}
@@ -100,8 +100,10 @@ function ProjectsCard(props, ref) {
                   sx={{
                     backgroundColor: "#181e1e",
                     borderRadius: "16px",
-                    p: 1,
-                    color: "white "
+                    p: 0.5,
+
+                    color: "white ",
+                    textAlign: "center"
                   }}
                   gutterBottom
                   variant="subtitle1"

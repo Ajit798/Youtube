@@ -39,8 +39,6 @@ function App() {
   };
 
   const handleClick = (page) => {
-    console.log("page", page);
-
     if (page === "About") {
       NavRef?.current?.scrollIntoView({
         behavior: "smooth",
@@ -133,7 +131,7 @@ function App() {
                     onClose={handleCloseNavMenu}
                   >
                     {pages.map((page) => (
-                      <MenuItem key={page}>
+                      <MenuItem key={page} onClick={() => handleClick(page)}>
                         <Typography textAlign="center">{page}</Typography>
                       </MenuItem>
                     ))}
@@ -181,10 +179,16 @@ function App() {
                     sx={{ borderRadius: "12px" }}
                   >
                     <a
-                      href="https://drive.google.com/uc?export=download&id=1MItZGID3viTlx4u6ViCn9Xv1ozdC_wTH"
-                      download
+                      href="https://drive.google.com/file/d/1msK5M3RE0ZHbJejy0tC9duzWMnNuFvdT/view?usp=sharing"
+                      target="_blank"
                     >
-                      Download CV
+                      <Typography
+                        variant="subtitle2"
+                        whiteSpace={"nowrap"}
+                        sx={{ cursor: "pointer" }}
+                      >
+                        Download CV
+                      </Typography>
                     </a>
                   </Button>
                 </Box>

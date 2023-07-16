@@ -27204,7 +27204,6 @@ function App() {
         setAnchorElNav(null);
     };
     const handleClick = (page)=>{
-        console.log("page", page);
         if (page === "About") NavRef?.current?.scrollIntoView({
             behavior: "smooth",
             block: "start"
@@ -27258,7 +27257,7 @@ function App() {
                                         }
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 85,
+                                        lineNumber: 83,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Typography), {
@@ -27280,7 +27279,7 @@ function App() {
                                         children: "Ajit Chaubey"
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 87,
+                                        lineNumber: 85,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Box), {
@@ -27301,12 +27300,12 @@ function App() {
                                                 color: "inherit",
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _menuDefault.default), {}, void 0, false, {
                                                     fileName: "src/App.js",
-                                                    lineNumber: 115,
+                                                    lineNumber: 113,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 107,
+                                                lineNumber: 105,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Menu), {
@@ -27330,28 +27329,29 @@ function App() {
                                                 },
                                                 onClose: handleCloseNavMenu,
                                                 children: pages.map((page)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.MenuItem), {
+                                                        onClick: ()=>handleClick(page),
                                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Typography), {
                                                             textAlign: "center",
                                                             children: page
                                                         }, void 0, false, {
                                                             fileName: "src/App.js",
-                                                            lineNumber: 137,
+                                                            lineNumber: 135,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, page, false, {
                                                         fileName: "src/App.js",
-                                                        lineNumber: 136,
+                                                        lineNumber: 134,
                                                         columnNumber: 23
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 117,
+                                                lineNumber: 115,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/App.js",
-                                        lineNumber: 106,
+                                        lineNumber: 104,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Typography), {
@@ -27373,7 +27373,7 @@ function App() {
                                         children: "AJIT CHAUBEY"
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 142,
+                                        lineNumber: 140,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Box), {
@@ -27395,12 +27395,12 @@ function App() {
                                                 children: page
                                             }, page, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 168,
+                                                lineNumber: 166,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 160,
+                                        lineNumber: 158,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Box), {
@@ -27411,77 +27411,88 @@ function App() {
                                                 borderRadius: "12px"
                                             },
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                href: "https://drive.google.com/uc?export=download&id=1MItZGID3viTlx4u6ViCn9Xv1ozdC_wTH",
-                                                download: true,
-                                                children: "Download CV"
+                                                href: "https://drive.google.com/file/d/1msK5M3RE0ZHbJejy0tC9duzWMnNuFvdT/view?usp=sharing",
+                                                target: "_blank",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Typography), {
+                                                    variant: "subtitle2",
+                                                    whiteSpace: "nowrap",
+                                                    sx: {
+                                                        cursor: "pointer"
+                                                    },
+                                                    children: "Download CV"
+                                                }, void 0, false, {
+                                                    fileName: "src/App.js",
+                                                    lineNumber: 185,
+                                                    columnNumber: 23
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "src/App.js",
-                                                lineNumber: 183,
+                                                lineNumber: 181,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/App.js",
-                                            lineNumber: 178,
+                                            lineNumber: 176,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/App.js",
-                                        lineNumber: 177,
+                                        lineNumber: 175,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/App.js",
-                                lineNumber: 84,
+                                lineNumber: 82,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 83,
+                            lineNumber: 81,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 79,
+                        lineNumber: 77,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 78,
+                    lineNumber: 76,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contentDefault.default), {
                     ref: NavRef
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 196,
+                    lineNumber: 200,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {
                     ref: Nav1Ref
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 197,
+                    lineNumber: 201,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {
                     ref: Nav2Ref
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 198,
+                    lineNumber: 202,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {
                     ref: Nav3Ref
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 199,
+                    lineNumber: 203,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 68,
+            lineNumber: 66,
             columnNumber: 7
         }, this)
     }, void 0, false);
@@ -56008,7 +56019,7 @@ function ProjectsCard(props, ref) {
                     xs: 12,
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Card), {
                         sx: {
-                            maxWidth: 300,
+                            width: "100%",
                             borderRadius: "14px"
                         },
                         elevation: 2,
@@ -56034,8 +56045,9 @@ function ProjectsCard(props, ref) {
                                         sx: {
                                             backgroundColor: "#181e1e",
                                             borderRadius: "16px",
-                                            p: 1,
-                                            color: "white "
+                                            p: 0.5,
+                                            color: "white ",
+                                            textAlign: "center"
                                         },
                                         gutterBottom: true,
                                         variant: "subtitle1",
@@ -56055,12 +56067,12 @@ function ProjectsCard(props, ref) {
                                             }
                                         }, void 0, false, {
                                             fileName: "src/components/Portfolio/index.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 116,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/Portfolio/index.tsx",
-                                        lineNumber: 113,
+                                        lineNumber: 115,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -56078,23 +56090,23 @@ function ProjectsCard(props, ref) {
                                                         children: desc
                                                     }, void 0, false, {
                                                         fileName: "src/components/Portfolio/index.tsx",
-                                                        lineNumber: 121,
+                                                        lineNumber: 123,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/Portfolio/index.tsx",
-                                                    lineNumber: 120,
+                                                    lineNumber: 122,
                                                     columnNumber: 25
                                                 }, this);
                                             })
                                         }, void 0, false, {
                                             fileName: "src/components/Portfolio/index.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 119,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/Portfolio/index.tsx",
-                                        lineNumber: 116,
+                                        lineNumber: 118,
                                         columnNumber: 17
                                     }, this)
                                 ]
@@ -56237,6 +56249,7 @@ function ContactUs(props, ref) {
                     opacity: 0.9,
                     justifyContent: "center"
                 },
+                elevation: 1,
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Box), {
                     sx: {
                         width: "100%"
@@ -56276,12 +56289,12 @@ function ContactUs(props, ref) {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "src/components/Contact/index.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 123,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/Contact/index.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 122,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Grid), {
@@ -56303,12 +56316,12 @@ function ContactUs(props, ref) {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "src/components/Contact/index.tsx",
-                                        lineNumber: 137,
+                                        lineNumber: 138,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/Contact/index.tsx",
-                                    lineNumber: 136,
+                                    lineNumber: 137,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Grid), {
@@ -56332,18 +56345,18 @@ function ContactUs(props, ref) {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "src/components/Contact/index.tsx",
-                                        lineNumber: 152,
+                                        lineNumber: 153,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/Contact/index.tsx",
-                                    lineNumber: 151,
+                                    lineNumber: 152,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Contact/index.tsx",
-                            lineNumber: 110,
+                            lineNumber: 111,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Grid), {
@@ -56366,17 +56379,17 @@ function ContactUs(props, ref) {
                                     children: "Submit"
                                 }, void 0, false, {
                                     fileName: "src/components/Contact/index.tsx",
-                                    lineNumber: 177,
+                                    lineNumber: 178,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "src/components/Contact/index.tsx",
-                                lineNumber: 176,
+                                lineNumber: 177,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/Contact/index.tsx",
-                            lineNumber: 168,
+                            lineNumber: 169,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Snackbar), {
@@ -56397,18 +56410,18 @@ function ContactUs(props, ref) {
                                 children: "Message was Sent SuccessFully"
                             }, void 0, false, {
                                 fileName: "src/components/Contact/index.tsx",
-                                lineNumber: 194,
+                                lineNumber: 195,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/Contact/index.tsx",
-                            lineNumber: 187,
+                            lineNumber: 188,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Contact/index.tsx",
-                    lineNumber: 103,
+                    lineNumber: 104,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {

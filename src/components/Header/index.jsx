@@ -38,7 +38,7 @@ function Navbar() {
     <Grid item Container md={12} sm={12} xs={12}>
       <AppBar
         position="static"
-        sx={{ background: "transparent", boxShadow: "inherit" }}
+        sx={{ background: "transparent", boxShadow: "inherit", width: "100%" }}
       >
         <Container maxWidth="xl">
           <Toolbar disableGutters>
@@ -134,7 +134,7 @@ function Navbar() {
                 </Button>
               ))}
             </Box>
-            <Box>
+            <Box sx={{ width: "100%" }}>
               <Button
                 variant="contained"
                 color="error"
@@ -144,7 +144,9 @@ function Navbar() {
                   href="https://drive.google.com/uc?export=download&id=1MItZGID3viTlx4u6ViCn9Xv1ozdC_wTH"
                   download
                 >
-                  Download CV
+                  <Typography variant="subtitle2" whiteSpace={"nowrap"}>
+                    Download CV
+                  </Typography>
                 </a>
               </Button>
             </Box>
