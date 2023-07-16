@@ -39,7 +39,7 @@ function BodyContent(props, ref) {
             <TypeAnimation
               sequence={[
                 "Hello", // Types 'One'
-                1000, // Waits 1s
+                3000, // Waits 1s
                 "Hello I am Ajit Kumar Chaubey" // Deletes 'One' and types 'Two'
               ]}
               wrapper="h6"
@@ -64,7 +64,7 @@ function BodyContent(props, ref) {
             <TypeAnimation
               sequence={[
                 "I am a Frontend Developer", // Types 'One'
-                1000, // Waits 1s
+                2000, // Waits 1s
                 "I am a Frontend Developer with 1+ years of Experience" // Deletes 'One' and types 'Two'
               ]}
               wrapper="h5"
