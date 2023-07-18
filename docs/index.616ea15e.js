@@ -27411,8 +27411,8 @@ function App() {
                                                 borderRadius: "12px"
                                             },
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                                href: "https://drive.google.com/file/d/1msK5M3RE0ZHbJejy0tC9duzWMnNuFvdT/view?usp=sharing",
-                                                target: "_blank",
+                                                href: "AjitChaubeyUpdatedResume.pdf",
+                                                download: true,
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _material.Typography), {
                                                     variant: "subtitle2",
                                                     whiteSpace: "nowrap",
@@ -27422,7 +27422,7 @@ function App() {
                                                     children: "Download CV"
                                                 }, void 0, false, {
                                                     fileName: "src/App.js",
-                                                    lineNumber: 185,
+                                                    lineNumber: 182,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
@@ -27465,28 +27465,28 @@ function App() {
                     ref: NavRef
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 200,
+                    lineNumber: 197,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _skillsDefault.default), {
                     ref: Nav1Ref
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 201,
+                    lineNumber: 198,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {
                     ref: Nav2Ref
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 202,
+                    lineNumber: 199,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {
                     ref: Nav3Ref
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 203,
+                    lineNumber: 200,
                     columnNumber: 9
                 }, this)
             ]

@@ -178,10 +178,7 @@ function App() {
                     color="error"
                     sx={{ borderRadius: "12px" }}
                   >
-                    <a
-                      href="https://drive.google.com/file/d/1msK5M3RE0ZHbJejy0tC9duzWMnNuFvdT/view?usp=sharing"
-                      target="_blank"
-                    >
+                    <a href="AjitChaubeyUpdatedResume.pdf" download>
                       <Typography
                         variant="subtitle2"
                         whiteSpace={"nowrap"}
