@@ -68,7 +68,20 @@ function ContactUs(props, ref) {
         justifyContent="center"
         alignItems={"center"}
       >
-        <Typography variant="h5" textAlign="center" justifyContent="center">
+        <Typography
+          variant="h5"
+          textAlign="center"
+          justifyContent="center"
+          sx={{
+            backgroundColor: "#181e1e",
+            color: "white",
+            borderRadius: "16px",
+            pt: 1,
+            pl: 4,
+            pr: 4,
+            pb: 1
+          }}
+        >
           What Can I Do
         </Typography>
       </Grid>
@@ -82,11 +95,11 @@ function ContactUs(props, ref) {
         padding={2}
       >
         <Typography
-          variant="body1"
-          color="error"
+          variant="h6"
+          color="yellow"
           textAlign="center"
           justifyContent="center"
-          marginTop={-4}
+          marginTop={-2}
         >
           Contact Me
         </Typography>

@@ -20,6 +20,7 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import profilePic from "../src/assets/images/Profilepic.png";
 import "../style.css";
+import PersonalProjectsCard from "./components/Personal Projects";
 
 const pages = ["About", "Skills", "PortFolio", "Contact"];
 
@@ -197,6 +198,7 @@ function App() {
         <BodyContent ref={NavRef} />
         <SkillsCard ref={Nav1Ref} />
         <ProjectsCard ref={Nav2Ref} />
+        <PersonalProjectsCard />
         <ContactUs ref={Nav3Ref} />
       </Grid>
     </>

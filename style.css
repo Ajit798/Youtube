@@ -1,9 +1,10 @@
 body {
-  background-color: #1e1e1e;
+  /* background-color: #2d3436; */
+  /* background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); */
   color: white;
-  background-image: url("https://wallpapercave.com/wp/wp8778363.jpg");
+  background-image: url("./src/assets/images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   height: max-content;
 }
